@@ -1,4 +1,4 @@
-package com.berteek.weather
+package com.berteek.weather.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

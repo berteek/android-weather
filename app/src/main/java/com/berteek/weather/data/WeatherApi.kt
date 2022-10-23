@@ -1,5 +1,7 @@
-package com.berteek.weather
+package com.berteek.weather.data
 
+import com.berteek.weather.domain.CurrentWeatherData
+import com.berteek.weather.domain.HourlyWeatherData
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

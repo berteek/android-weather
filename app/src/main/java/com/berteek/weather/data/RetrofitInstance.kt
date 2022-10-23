@@ -1,4 +1,4 @@
-package com.berteek.weather
+package com.berteek.weather.data
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

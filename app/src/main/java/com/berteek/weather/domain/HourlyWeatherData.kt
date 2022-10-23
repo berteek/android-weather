@@ -1,4 +1,4 @@
-package com.berteek.weather
+package com.berteek.weather.domain
 
 import android.icu.text.SimpleDateFormat
 import com.google.gson.annotations.SerializedName
