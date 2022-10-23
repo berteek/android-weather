@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="@drawable/daniel_ramirez_q4tfwtnz_xw_unsplash"
     tools:context=".presentation.MainActivity">
 
     <TextView
@@ -15,7 +15,7 @@
         android:fontFamily="@font/roboto"
         android:text="@string/title"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,10 +27,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/roboto_thin"
         android:textColor="@color/white"
-        android:textSize="60sp"
+        android:textSize="68sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title"
@@ -43,6 +43,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto"
         android:textColor="#FFFFFF"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/currentTemperature"
@@ -50,10 +51,10 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="64dp"
         app:cardBackgroundColor="@color/transparent_background"
         app:cardCornerRadius="16dp"
@@ -67,7 +68,7 @@
             android:id="@+id/weatherHours"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="16dp">
+            android:layout_margin="8dp">
 
         </androidx.recyclerview.widget.RecyclerView>
     </androidx.cardview.widget.CardView>

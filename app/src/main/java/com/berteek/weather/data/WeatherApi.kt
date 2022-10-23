@@ -1,7 +1,7 @@
 package com.berteek.weather.data
 
 import com.berteek.weather.domain.CurrentWeatherData
-import com.berteek.weather.domain.HourlyWeatherData
+import com.berteek.weather.domain.HourlyWeatherDataList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -27,5 +27,5 @@ interface WeatherApi {
         @Query("appid") apiKey: String,
         @Query("lang") language: String,
         @Query("units") units: String
-    ): Response<List<HourlyWeatherData>>
+    ): Response<HourlyWeatherDataList>
 }
