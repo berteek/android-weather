@@ -1,10 +1,10 @@
 package com.berteek.weather.domain
 
-import android.icu.text.SimpleDateFormat
 import com.google.gson.annotations.SerializedName
+import java.util.*
 
 data class HourlyWeatherData(
-    @SerializedName("dt") val time: SimpleDateFormat,
+    @SerializedName("dt") val time: Date,
     val description: String,
     @SerializedName("temp") val temperature: Float
 )
