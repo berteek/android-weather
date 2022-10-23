@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">Weather</string>
     <string name="title">Погода сейчас в Димитровграде</string>
-    <string name="current_weather_placeholder">300°</string>
 </resources>
